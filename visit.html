@@ -9,9 +9,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   	<link rel="icon" href="images/ann_arbor.ico">
 	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/style.css">
+  <!--Error 1, added css/ before style.css-->
 
-  <tite>Visit the Ann Arbor Art Museum</title>
+  <title>Visit the Ann Arbor Art Museum</title>
+  <!--Error 10, changed typoe tite to title-->
 </head>
 
 <body>
@@ -20,10 +22,11 @@
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="exhibit.html">Current Exhibits</a></li>
+        <li><a href="exhibits.html">Current Exhibits</a></li>
         <li><a href="hours.html">Hours and Admission</a></li>
         <a href="visit.html">Plan Your Visit</a>
       </ul>
+      <!--Error 11, added s after exhibit to match with the html file name-->
     </nav>
   </header>
 
@@ -58,8 +61,8 @@
     </section>
 
     <section>
-      <h2>Exploring Nearby Ann Arbor<h2>
-
+      <h2>Exploring Nearby Ann Arbor</h2>
+      <!-- Error 2, Closed h2-->
       <p>
         A museum visit can be part of a larger Ann Arbor outing. Visitors often combine the museum with a walk through Kerrytown, a meal on Main Street,
         a bookstore visit on State Street, or a walk near the University of Michigan Diag.
@@ -73,9 +76,10 @@
       <ul>
         <li>Walk through downtown Ann Arbor before or after your visit.</li>
         <li>Explore Kerrytown shops and the Ann Arbor Farmers Market.</li>
-       Visit nearby theaters, galleries, and music venues.
+        <li>Visit nearby theaters, galleries, and music venues.</li>
         <li>Take a walk near the Huron River or Nichols Arboretum.</li>
       </ul>
+      <!--Error 3, Add list for the sentence starting with "Visit"-->
     </section>
 
     <section>
@@ -102,8 +106,9 @@
       </p>
 
       <p>
-        <strong>Backpacks should be worn on one shoulder or carried by hand to help protect artwork and other visitors.</p>
-    </section>
+        <strong>Backpacks should be worn on one shoulder or carried by hand to help protect artwork and other visitors.</strong></p>
+      <!--Error 4, closed strong-->
+      </section>
 
     <section>
       <h2>Museum Location</h2>
@@ -111,6 +116,8 @@
       <p>
         The museum is located in Ann Arbor, Michigan, a city known for its university community, independent businesses, parks, festivals, public art, and civic engagement. Visitors should allow extra travel time during football weekends, commencement, move-in week, and major downtown events.
       </p>
+    <!--Error 5, Closed section-->
+    </section>
 
     <section>
       <h2>Before You Arrive</h2>
@@ -129,11 +136,16 @@
   </main>
 
   <footer>
-    <p>copy; 2026 Ann Arbor Art Museum</p>
-
+    <p> &copy; 2026 Ann Arbor Art Museum. All rights reserved.</p>
+    <!--Error 6, fixed the copy image-->
     <p>
-      <a href="mailto:info@annarborartmuseum.example">Email the museum</a>
+      Contact us at
+      <a href="mailto:info@annarborartmuseum.example">info@annarborartmuseum.example</a>
+      or call
+      <a href="tel:+17345551234">734-555-1234</a>.
     </p>
+    <!--Error 7, changed email to make it sync with others-->
+    <!--Error 8, added telephone info to make it sync-->
   </footer>
 </body>
 </html>

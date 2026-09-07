@@ -14,14 +14,16 @@
 <body>
   <header>
     <h1>Ann Arbor Art Museum</h1>
-
+    <nav></nav>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="exhibits.html">Current Exhibits</a></li>
         <li class="active"><a href="hours.html">Hours and Admission</a></li>
-        <li><a>Plan Your Visit</a></li>
+        <li><a href="visit.html">Plan Your Visit</a></li>
       </ul>
- 
+      <!--Error 6, Added the link for Plan Your Visit-->
+  </nav>
+  <!--Error 5, added the nav element-->
   </header>
 
   <main>
@@ -45,9 +47,10 @@
             <th scope="col">Day</th>
             <th scope="col">Hours</th>
             <th scope="col">Adult Admission</th>
-            Student Admission
+            <th scope="col">Student Admission</th>
             <th scope="col">Ann Arbor Visitor Notes</th>
           </tr>
+          <!--Error 7, added scope for student admission-->
         </thead>
 
         <tbody>
@@ -69,11 +72,11 @@
           <tr>
             <th scope="row">Saturday</th>
             <td>9:00 AM – 6:00 PM</td>
-            $14
+            <td>$14</td>
             <td>$9</td>
             <td>Expect heavier traffic during football weekends and festivals</td>
           </tr>
-
+          <!--Error 1, Added td element for $14-->
           <tr>
             <th scope="row">Sunday</th>
             <td>12:00 PM – 5:00 PM</td>
@@ -86,8 +89,8 @@
     </section>
 
     <section>
-      <h4>Free Admission Days</h4>
-
+      <h2>Free Admission Days</h2>
+      <!--Error 3, changed the header to h2 instead of h4-->
       <p>
         The museum offers free general admission on the first Sunday of every month. These days are designed to welcome Ann Arbor residents, students, families, and visitors who want to explore local culture without an admission cost.
       </p>
@@ -113,9 +116,10 @@
     <section>
       <h2>Group Visits and School Programs</h2>
 
-
+      <p>
         Groups of ten or more visitors should contact the museum in advance.Group reservations help staff prepare gallery guides, accessibility accommodations, and gathering spaces.
-
+      </p>
+      <!-- Error 2, Added element for this paragraph-->
       <p>
         School groups can request tours connected to Ann Arbor history, public art, environmental studies, visual analysis, or careers in museums and cultural organizations.
       </p>
@@ -123,13 +127,17 @@
       <p>Group leaders should arrive at least fifteen minutes early to check in before the scheduled visit.</p>
     </section>
   </main>
-
+  <footer>
     <p>&copy; 2026 Ann Arbor Art Museum. All rights reserved.</p>
 
     <p>
-      Email us at
+      Contact us at
       <a href="mailto:info@annarborartmuseum.example">info@annarborartmuseum.example</a>
+        <!-- A mailto link opens the user's default email application.  -->
+      or call
+      <a href="tel:+17345551234">734-555-1234</a>.
     </p>
-
-</body>
+</footer>
+<!--Error 4, Added the footer element and telephone email to make the footer aligned-->
+  </body>
 </html>

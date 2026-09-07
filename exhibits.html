@@ -23,7 +23,7 @@
         <li class="active"><a href="exhibits.html">Current Exhibits</a></li>
         <li><a href="hours.html">Hours and Admission</a></li>
         <li><a href="visit.html">Plan Your Visit</a></li>
-      </ul> <!-- Error 3 maybe, chengd /ol to ul -->
+      </ul> 
     </nav>
   </header>
 
@@ -33,7 +33,8 @@
 
       <p> The Ann Arbor Art Museum presents exhibitions inspired by the city of Ann Arbor, Michigan. The museum explores the relationship between art, local history, public space, student life, neighborhood identity, and the natural environment of the Huron River watershed. </p>
 
-      <p>Current exhibits highlight the city’s downtown streets, historic theaters, university landmarks, parks, murals, independent bookstores, seasonal festivals, and creative communities. Visitors are invited to think about how art can help people understand the character of a place. <p>
+      <p>Current exhibits highlight the city’s downtown streets, historic theaters, university landmarks, parks, murals, independent bookstores, seasonal festivals, and creative communities. Visitors are invited to think about how art can help people understand the character of a place. </p>
+      <!-- Error 3, closed the p-->
 
     </section>
 
@@ -106,8 +107,8 @@
       <p>Visitors can compare contemporary photographs of Kerrytown with older images of the area to see how the neighborhood has changed while still maintaining a strong local identity. </p>
 
       <ul>
-        <li><strong>Market culture:</strong> Artists document produce stands, handmade goods, and public gathering spaces.
-
+        <li><strong>Market culture:</strong> Artists document produce stands, handmade goods, and public gathering spaces.</li>
+        <!-- Error 8, closed li-->
         <li><strong>Local business signs:</strong> Designers study typography, color, and storefront identity.</li>
         <li><strong>Neighborhood memory:</strong> Photographs show how buildings and streets change over time.</li>
         <!-- Error 6, added / before second strong to close -->
@@ -129,10 +130,18 @@
   </main>
 
   <footer>
-    <p>&copy; 2026 Ann Arbor Art Museum</p>
+    <p>&copy; 2026 Ann Arbor Art Museum. All rights reserved</p>
 
-    <p>Contact: <a href="mailto:info@annarborartmuseum.example">info@annarborartmuseum.example</a></p>
-    <!-- Error 7, added direction of the email -->
+    <p>
+      Contact us at
+      <a href="mailto:info@annarborartmuseum.example">info@annarborartmuseum.example</a>
+        <!-- A mailto link opens the user's default email application.  -->
+      or call
+      <a href="tel:+17345551234">734-555-1234</a>.
+         <!-- A tel link can start a phone call on devices that support calling.-->
+    </p>
+    <!-- Error 9, added direction of the email -->
+    <!-- Error 10, added the tellphone number detail and the "All right reserved" in footer to keep it identical with index.html-->
   </footer>
 </body>
 </html>
